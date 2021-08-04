@@ -7,7 +7,7 @@ module OmniAuth
   module Strategies
     class Intercode < OmniAuth::Strategies::OAuth2
       CurrentUserQuery = IntercodeClient::Client.parse <<~GRAPHQL
-        query IntercodeClientCurrentUserQuery {
+        query {
           currentUser {
             id
             first_name
