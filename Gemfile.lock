@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    intercode_client (0.1.0)
+    intercode_client (0.1.1)
       graphql-client
       json-jwt
       omniauth-oauth2
